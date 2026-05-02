@@ -31,7 +31,8 @@ export default function Home() {
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         >
           <source
-            src="https://cdn.coverr.co/videos/coverr-data-center-2528/1080p.mp4"
+            // src="https://www.w3schools.com/html/mov_bbb.mp4"
+            src="/videos/video1.mp4"
             type="video/mp4"
           />
         </video>

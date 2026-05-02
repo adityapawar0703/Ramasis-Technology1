@@ -11,7 +11,7 @@ export default function Contact() {
         <div className="absolute -top-32 -left-32 h-[500px] w-[500px] rounded-full bg-signal/20 blur-[120px]" />
         <div className="container-x relative">
           <Reveal>
-            <p className="overline mb-6">/ Contact</p>
+            <p className="overline mb-6"> Contact</p>
             <h1 className="heading-xl max-w-4xl mb-8">
               Talk to a real <span className="text-signal">security architect</span>.
             </h1>
@@ -35,12 +35,12 @@ export default function Contact() {
               {
                 Icon: MapPin,
                 title: 'Headquarters',
-                lines: ['Ramasis Technology', '12th Floor, Prestige Tower', 'Bengaluru 560001, India'],
+                lines: ['Ramasis Technology', '12th Floor, Prestige Tower', 'Pune 462041, India'],
               },
               {
                 Icon: Mail,
                 title: 'Email',
-                lines: ['hello@ramasis.tech', 'soc@ramasis.tech (incidents)'],
+                lines: ['hello@ramasis.tech', 'ramasis@gmail.com (incidents)'],
               },
               {
                 Icon: Phone,
@@ -64,7 +64,7 @@ export default function Contact() {
             ))}
 
             <div className="surface border border-signal/40 p-7">
-              <p className="overline mb-3 text-signal">/ Active Incident?</p>
+              <p className="overline mb-3 text-signal"> Active Incident?</p>
               <p className="text-sm text-muted leading-relaxed mb-4">
                 If you're experiencing an active security incident, call our 24/7 SOC hotline
                 immediately or email <span className="text-signal">soc@ramasis.tech</span>.

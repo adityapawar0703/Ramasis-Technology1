@@ -16,7 +16,7 @@ export default function ParticlesCanvas({ className = '' }) {
     let columns = 0;
     let drops = [];
     const fontSize = 14;
-    const chars = '01アイウエオカキクケコサシスセソタチツテトハヒフヘホマミムメモ#@$%&*'.split('');
+    const chars = 'abcd'.split('');
 
     const resize = () => {
       const dpr = Math.min(window.devicePixelRatio || 1, 2);

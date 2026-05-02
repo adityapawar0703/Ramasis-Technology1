@@ -80,7 +80,7 @@ export default function Footer() {
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-2">
               <MapPin size={14} className="mt-1 text-signal flex-shrink-0" />
-              <span>Bengaluru · Singapore · London</span>
+              <span>Pune · Bengaluru · Bhopal </span>
             </li>
             <li className="flex items-start gap-2">
               <Mail size={14} className="mt-1 text-signal flex-shrink-0" />
